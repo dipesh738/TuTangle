@@ -8,7 +8,7 @@ html {
 }
 
 .wrapper {
-  height: 110vh;
+  height: 120vh;
   font-family: sans-serif;
 }
 
@@ -23,12 +23,14 @@ html {
 
 .top-nav-main {
   display: flex;
+
   justify-content: space-between;
   margin: 0 30rem 0 30rem;
   padding: 0.5rem 0 1.5rem 0;
 }
 .top-nav-left {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .nav-heading a {
@@ -280,3 +282,34 @@ dd {
   align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    height: 95vh;
+  }
+  .top-nav-main {
+    margin: 0 2rem 0 2rem;
+  }
+  .bot-nav-main {
+    margin: 0 2rem 0 2rem;
+  }
+  .hero {
+    height: 70vh;
+  }
+  .main-hero {
+    margin: 0;
+    font-size: 150%;
+  }
+  .entry-top {
+    flex-wrap: wrap;
+  }
+  .left-main-hero li {
+    font-size: 1.7rem;
+  }
+  .right-main-hero li {
+    font-size: 1.7rem;
+  }
+  .main-footer {
+    margin: 0 2rem 0 2rem;
+    font-size: 1.5rem;
+  }
+}
