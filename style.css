@@ -117,10 +117,12 @@ button {
 .bot-nav-right-1 {
   display: flex;
   margin-right: 3rem;
+  align-items: center;
 }
 .bot-nav-right-2 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #b9b9b9;
 }
 .hero {
@@ -268,6 +270,7 @@ dd {
   height: 100%;
   color: white;
   font-size: 1.3rem;
+  flex-wrap: wrap;
 }
 .footer-left {
   display: flex;
@@ -311,5 +314,88 @@ dd {
   .main-footer {
     margin: 0 2rem 0 2rem;
     font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .html {
+    font-size: 45%;
+  }
+  .wrapper {
+    height: 100%;
+  }
+  .hero {
+    height: 100%;
+  }
+  .main-hero {
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .left-main-hero {
+    width: 100%;
+  }
+  .right-main-hero {
+    width: 100%;
+  }
+
+  .entry-top {
+    justify-content: center;
+  }
+  .entry-left {
+    width: 80%;
+    border-top-right-radius: 1.5rem;
+    margin: 1rem 0 1rem 0;
+  }
+  .entry-right {
+    width: 100%;
+    border-top-left-radius: 1.5rem;
+  }
+  h4 {
+    text-align: center;
+  }
+  h2 {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .top-nav-main {
+    margin: 0;
+  }
+  .top-nav-right {
+    padding-right: 1rem;
+  }
+  .bot-nav-main {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .bot-nav-left {
+    padding-left: 4rem;
+  }
+  .bot-nav-right {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .bot-nav-right img {
+    height: 3rem;
+    width: 3rem;
+  }
+  .bot-nav {
+    height: 10rem;
+    margin-bottom: 2rem;
+  }
+  .nav-list-1 {
+    width: 10rem;
+
+    text-align: end;
+  }
+  input {
+    width: 15rem;
+  }
+  .footer {
+    height: 10vh;
+  }
+  .main-footer {
+    margin: 0;
   }
 }
