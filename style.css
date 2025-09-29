@@ -360,6 +360,9 @@ dd {
   .top-nav-main {
     margin: 0;
   }
+  .top-nav-left {
+    justify-content: center;
+  }
   .top-nav-right {
     padding-right: 1rem;
   }
@@ -368,6 +371,7 @@ dd {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 1rem;
   }
   .bot-nav-left {
     padding-left: 4rem;
@@ -397,5 +401,9 @@ dd {
   }
   .main-footer {
     margin: 0;
+    padding: 1rem;
+  }
+  .box {
+    padding-left: 1rem;
   }
 }
